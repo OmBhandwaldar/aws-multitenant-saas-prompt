@@ -16,6 +16,8 @@ The "correct" architecture — pool model with defense-in-depth tenant isolation
 
 ## What the prompt generates
 
+![Architecture](screenshots/00-architecture.png)
+
 ```
 Tenant user (browser / mobile)
    │  HTTPS + JWT (Cognito ID token with custom:tenant_id + custom:role)
