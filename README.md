@@ -16,11 +16,11 @@ The "correct" architecture — pool model with defense-in-depth tenant isolation
 
 ## What the prompt generates
 
-![Architecture](screenshots/00-architecture.png)
-
-*Live X-Ray trace from the deployed system — proof the architecture above isn't aspirational:*
-
 ![X-Ray trace map](screenshots/02-xray-trace-map.png)
+
+*Live X-Ray trace from the deployed system. Full designed architecture below:*
+
+![Architecture](screenshots/00-architecture.png)
 
 ```
 Tenant user (browser / mobile)
