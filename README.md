@@ -18,6 +18,10 @@ The "correct" architecture — pool model with defense-in-depth tenant isolation
 
 ![Architecture](screenshots/00-architecture.png)
 
+*Live X-Ray trace from the deployed system — proof the architecture above isn't aspirational:*
+
+![X-Ray trace map](screenshots/02-xray-trace-map.png)
+
 ```
 Tenant user (browser / mobile)
    │  HTTPS + JWT (Cognito ID token with custom:tenant_id + custom:role)
